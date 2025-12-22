@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section 01 */
+header video{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
+header h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: -360px;
+    margin-left: 100px;
+    color: #fff;
+    font-family: poppins    ;
+}
+/* section 02 */
+div.para-one p{
+    font-size: 29px;
+    color: #000;
+    font-family: poppins;
+    font-weight: 600;
+}
+div.img{
+    width: 600px;
+}
+button.about{
+    background-color: rgb(238, 44, 130);
+    border: none;
+}
+button.about:hover{
+    opacity: 80%;
+}
+/* section 03 */
+p.para-one{
+    font-size: 18px;
+}
+div.home-slide{
+    background-image: url(./assets/home/slider01.jpg);
+    object-fit: cover;
+    background-position: center;
+    
+    width: 100%;
+    height:300px;
+}
+/* footer */
+div.ft-1 a{
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+}
+div.ft-1 i:hover{
+    color: gray;
+}
+li.active{
+    border-top: 2px solid  rgb(238, 44, 130);
+}
+
+/* about page */
+div.bg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+div.heading{
+    margin-top: -230px;
+    margin-left: 100px;
+    margin-bottom: 180px;
+}
+div.heading h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 69px;
+    line-height: 65px;
+}
+h2.main{
+    font-size: 38px;
+    font-family: poppins;
+    font-weight: 600;
+}
+/* newsroom page */
+div.news{
+    margin-top: 100px;
+}
+div.news h1{
+    font-size: 55px;
+    font-family: poppins;
+    font-weight: 600;
+}
+header.container{
+    background-color: #e5e7eb;
+}
+a.merchant{
+    text-decoration: none;
+    color: #000;
+    transition: .2s;
+}
+a.merchant:hover{
+    color: #f60f9d;
+}
+a.news{
+    text-decoration: none;
+    color: #000;
+    transition: .2s;
+    line-height: 30px;
+} 
+span.apac{    
+    color: #f60f9d;
+    font-weight: 700;
+}
+/* contact page */
+input{
+    padding: 8px;
+}
+/* partner page. */
+div.partner{
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+div.partner:hover{
+    box-shadow: 0 0 20px #e5e7eb;
+}
+h3.customer{
+    margin-top: 200px;
+    font-weight: 800;
+}
