@@ -101,6 +101,21 @@ background-color: black; */
 .font {
     padding-left: 200px;
 }
+.about {
+    background-color: rgb(248, 11, 129);
+    border: none;
+}
+.img-fluid {
+    width: 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+
 
 
 
