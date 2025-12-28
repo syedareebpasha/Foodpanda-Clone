@@ -200,6 +200,43 @@ font-size: 20px;
     height: 400px;
     width: 300px;
 }
+.bg-contact {
+    height: 500px;
+    width: 100%;
+    
+}
+.heading-2 {
+    font-size: 90px;
+    margin-top: -150px;
+}
+
+.contact-form {
+    margin-top: 100px ;
+}
+.contact-form input {
+    width: 250px;
+height: 40px;
+border-radius: 5px;
+margin-right: 20px;
+}
+.last {
+    width: 305px;
+    justify-content: space-between;
+}
+.email {
+    width: 270px;
+}
+.contact-form textarea{
+    width: 47%;
+resize: none;
+}
+.contact-form button{
+    background-color: rgb(248, 11, 129);
+    border: none;
+}
+
+
+
 
 
 
